@@ -1,0 +1,25 @@
+{
+  "B": {
+    "method": "minmax",
+    "min": -0.6205071806907654,
+    "max": 0.6207066774368286
+  },
+  "H": {
+    "method": "standard",
+    "mean": 13.443477630615234,
+    "std": 16.293624877929688
+  },
+  "Frequency": {
+    "method": "standard",
+    "mean": 189982.03125,
+    "std": 110394.6796875
+  },
+  "Temperature": {
+    "method": "standard",
+    "mean": 59.02774429321289,
+    "std": 24.02157974243164
+  },
+  "Loss": {
+    "method": "log10"
+  }
+}
