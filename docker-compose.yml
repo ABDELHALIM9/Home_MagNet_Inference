@@ -1,0 +1,13 @@
+services:
+  magnet-inference:
+    build: .
+    container_name: magnet-inference
+    ports:
+      - "8000:8000"
+    environment:
+      MODELS_DIR: /app/models
+      DEVICE: auto
+      BATCH_SIZE: 256
+    volumes:
+      - ./models:/app/models:ro
+    restart: unless-stopped
